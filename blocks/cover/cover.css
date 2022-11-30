@@ -17,7 +17,7 @@
   display: block;
   position: absolute;
   opacity: 0.8;
-  background-image: url(../../images/__background.svg);
+  background-image: url(../../images/background.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
