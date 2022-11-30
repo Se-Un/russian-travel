@@ -24,7 +24,9 @@
 
 **GitHub-Pages link**
 
+Ссылка на github pages:
 
+https://se-un.github.io/russian-travel/
 
 
 
