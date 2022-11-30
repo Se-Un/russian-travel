@@ -1,0 +1,33 @@
+/*сначала решил задать стили для разрешения 1280 и больше*/
+.lead {
+  width: 76.9%;
+  margin: 0 125px 0 171px;
+  padding: 70px 0 78px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* диапозон от 1024*/
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+  .lead {
+    width: 90.6%;
+    margin: 0 48px 0 48px;
+    padding: 48px 0 92px 0;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .lead {
+    width: 100%;
+    margin: 0;
+    padding: 48px 0 88px 0; 
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .lead {
+    width: 100%;
+    margin: 0;
+    padding: 48px 0 64px 0;
+  }
+}
