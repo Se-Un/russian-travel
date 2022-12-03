@@ -24,11 +24,17 @@
   url(../../fonts/Inter-Black.woff2) format("woff2");
   font-weight: 900;
 }
+ body {
+  background-color: #2A2C2F; 
+}
 
 .page {
-  width: 100%;
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #2A2C2F;
+  justify-content: center; 
+
 }

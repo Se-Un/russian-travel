@@ -7,14 +7,15 @@
   font-weight: normal;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+
+@media (min-width: 767px) and (max-width: 1023px) {
   .header {
     width: calc(100% - 48px);
   }
   
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .header {
     padding-top: 16px;
     width: calc(100% - 32px);
