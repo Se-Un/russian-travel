@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 /*выше подключил normalize.css*/
-@import url(../blocks/fonts/fonts.css);
+@import url(../fonts/fonts.css);
 /*выше подключил шрифты*/
 @import url(../blocks/page/page.css);
 /*выше подключил стили для всей страницы*/
@@ -76,10 +76,6 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 @import url(../blocks/cover/__link/cover__link.css);
-
-@import url(../blocks/cover/__overlay/cover__overlay.css);
-
-@import url(../blocks/cover/__background/cover__background.css);
 
 /*section footer*/
 @import url(../blocks/footer/footer.css);
