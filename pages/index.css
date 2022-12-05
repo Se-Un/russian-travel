@@ -2,6 +2,8 @@
 /*выше подключил normalize.css*/
 @import url(../fonts/fonts.css);
 /*выше подключил шрифты*/
+@import url(../blocks/common/common.css);
+/*задал стили всему содержимому страницы*/
 @import url(../blocks/page/page.css);
 /*выше подключил стили для всей страницы*/
 @import url(../blocks/header/header.css);
